@@ -1,0 +1,20 @@
+video, .overlay-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  opacity: 0.75;
+}
+
+video {
+  z-index: -100;
+  max-width: 100%;
+}
+
+.overlay-pattern {
+  min-width: 100%;
+  z-index: -99;
+  background: url('https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlays/patterns/black-fly-screen.png') left top repeat;
+}
